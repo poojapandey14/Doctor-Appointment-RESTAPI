@@ -1,0 +1,19 @@
+{
+  "name": "doctor-appointment",
+  "version": "1.0.0",
+  "description": "REST APIS TO SCHEDULE APPOINTMENT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "lab --assert code --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "lab": "^18.0.2"
+  }
+}
